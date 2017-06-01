@@ -21,13 +21,12 @@ fn rot13(input : &String) -> String{
 
 fn main() {
 	let mut input = String::new();
-    while let Ok(nr_bytes) = io::stdin().read_line(&mut input) {
-    	if nr_bytes == 0 {
-    		// reached EOF
-    		break;
-    	}
-    	print!("{}", rot13(&input));
-
-    	input = "".to_string();
-    }
+	while let Ok(nr_bytes) = io::stdin().read_line(&mut input) {
+		if nr_bytes == 0 {
+			// reached EOF
+			break;
+		}
+		print!("{}", rot13(&input));
+		input = "".to_string();
+	}
 }
