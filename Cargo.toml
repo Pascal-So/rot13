@@ -1,0 +1,6 @@
+[package]
+name = "rot13"
+version = "0.1.0"
+authors = ["Pascal Sommer <pascal.sommer@zivi.admin.ch>"]
+
+[dependencies]
