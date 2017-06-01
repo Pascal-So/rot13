@@ -11,3 +11,8 @@ cargo build --release
 ## Usage
 
 Reads from stdin and prints to stdout.
+
+```bash
+$ echo "Hello World! И это не меняется" | ./rot13
+Uryyb Jbeyq! И это не меняется
+```
